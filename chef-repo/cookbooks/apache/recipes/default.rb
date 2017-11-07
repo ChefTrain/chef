@@ -5,6 +5,9 @@
 # Copyright:: 2017, The Authors, All Rights Reserved.
 
 #install package
+
+node.default["apache"]["indexfile"] = "index2.html"
+
 package 'httpd'
 
 #Start the service and make it persistent
